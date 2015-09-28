@@ -1,21 +1,23 @@
 function Airport() {
-this.hangar = [];
+  this.hangar = [];
 
-// console.log(this.hangar)
+  // console.log(this.hangar)
 
 }
 
 Airport.prototype.land = function(plane) {
 
   this.hangar.push(plane);
-
-  // throw new Error("not yet implemented");
 };
 
-airport = new Airport()
+Airport.prototype.takeoff = function(plane) {
 
-console.log(airport.land('smth'))
+  this.hangar.pop(plane);
+};
 
-console.log(airport.hangar)
+// airport = new Airport()
+//
+// console.log(airport.land('smth'))
+//
+// console.log(airport.hangar)
 // console.log(airport.land())
-

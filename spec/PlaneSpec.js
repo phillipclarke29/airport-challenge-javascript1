@@ -16,10 +16,10 @@ describe("Plane", function() {
   });
 
   it("should be not flying when landed", function() {
-
+    console.log(plane)
     plane.land();
     expect(plane.isFlying).toBe(false);
-    // console.log(plane)
+    console.log(plane)
   });
 
   // describe("when song has been paused", function() {

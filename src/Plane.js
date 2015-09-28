@@ -9,6 +9,12 @@ Plane.prototype.land = function() {
 
 };
 
+Plane.prototype.takeoff = function() {
+  this.isFlying = true;
+
+
+};
+
 
 
 // Player.prototype.play = function(song) {
