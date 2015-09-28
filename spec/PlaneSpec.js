@@ -19,7 +19,7 @@ describe("Plane", function() {
 
     plane.land();
     expect(plane.isFlying).toBe(false);
-    console.log(plane)
+    // console.log(plane)
   });
 
   // describe("when song has been paused", function() {
